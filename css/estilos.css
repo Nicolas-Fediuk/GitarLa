@@ -1,0 +1,76 @@
+/*---------------------------------*/
+            /*clases*/
+/*---------------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 50%;
+}
+.nav-link{
+    color: black;
+}
+
+/* Index-Nav*/
+nav{
+    background-color: #e6b219;
+}
+
+/*---------------------------------------*/
+                /*Index*/
+/*---------------------------------------*/
+
+header{
+    background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)), url(../img/header.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+main img{
+    width: 50%;
+}
+section{
+    background: linear-gradient(rgba(0, 0, 0,0.5),rgba(0, 0, 0,0.5)), url(../img/cursos_bg.jpg);
+    background-size: cover;
+    color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+section div{
+    margin: 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width : 768px) {
+    section {
+        justify-content: center;
+    }
+    section div{
+        text-align: center;
+    }
+    
+}
+article img{
+    width: 60%;
+    border-radius: 10%;
+}
+
+/*-----------------------------------------*/
+                /*contacto*/
+/*-----------------------------------------*/
+
+
+.main-contacto{
+    max-width: 50%;
+}
